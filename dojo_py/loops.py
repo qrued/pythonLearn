@@ -80,6 +80,28 @@
 # print(sum_)
 
 
-colourlist = ["green", "yellow", "red"]
-for i in range(len(set(str(colourlist)))):
-    print(colourlist)
+# colourlist = ["green", "yellow", "red"]
+# for i in colourlist:
+#     print(i)
+
+
+# given_list = [7, 6, 5, 4, 3, 2, 1, -1, -2, -3, -4, -5, -6, -7]
+# sum_ = 0
+
+
+# for i in given_list:
+#     if i <= 0:
+#         sum_ += i
+# print(sum_)
+
+
+given_list = [7, 6, 5, 4, 3, 2, 1, -1, -2, -3, -4, -5, -6, -7]
+sum_ = 0
+i = 0
+
+while i in range(len(given_list)):
+    if given_list[i] < 0:
+        sum_ += given_list[i]
+    i += 1
+
+print(sum_)
