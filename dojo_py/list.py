@@ -65,3 +65,9 @@ print(b)
 b[-1], b[0] = b[0], b[-1]
 
 print(b)
+
+
+# Converting a range to a list
+
+z = list(range(1, 10, 2))  # I used the last parame to skip 2
+print(z)
